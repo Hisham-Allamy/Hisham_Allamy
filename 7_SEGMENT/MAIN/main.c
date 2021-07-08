@@ -87,6 +87,8 @@ int main(){
 			case Disp_9:
 				PORTA = Display_9;
 				break;
+			default:
+				return E_NOK;
 			}
 		}
 	}
