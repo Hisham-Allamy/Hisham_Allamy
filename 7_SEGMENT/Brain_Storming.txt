@@ -1,0 +1,11 @@
+1-	create the output function
+		{
+			=>for each display from 0 to 9 there must be an opposite output form
+			  e.g. (0 => port = 0b00000000 "No LEDs", 1 => port = 0b00000110 "b&c LEDs")
+			  better used as a header file and making them macros
+
+			=>create switch case to recieve a display num then represent it as described
+
+			=>create a loop to count up the numbers from 0 to 9
+
+			=>make sure to repeat the cycle when it reaches to the count after 9
